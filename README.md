@@ -8,6 +8,8 @@ The `ubuntu-node` image is published on Docker Hub at that URL
 
 * https://hub.docker.com/r/rbecheras/ubuntu-node
 
+`Node.js` is bundled with the latest `npm` and `yarn` package managers.
+
 See:
 
 * [Docker Home](https://www.docker.com)
@@ -17,6 +19,8 @@ See:
 * [Ubuntu on Docker Hub](https://hub.docker.com/_/ubuntu/)
 * [NodeJS Home](https://nodejs.org)
 * [NodeJS on Docker Hub](https://hub.docker.com/_/node/)
+* [Yarn Home](https://yarnpkg.com)
+* [npm Home](https://www.npmjs.com)
 
 ## Git Tags and Docker Tags
 
