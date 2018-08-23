@@ -28,4 +28,5 @@ RUN apt-get update \
 RUN adduser --disabled-password --gecos "" --uid 1000 node
 
 USER 1000
+WORKDIR /home/node
 CMD ["node"]
