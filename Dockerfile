@@ -5,11 +5,13 @@ FROM ubuntu:18.04
 
 # Install Node.js
 RUN apt-get update \
-  && apt-get install -y curl \
+  && apt-get install -y \
+    curl \
+    gnupg \
   && curl --silent --location https://deb.nodesource.com/setup_8.x | bash - \
   && apt-get install -y \
-    nodejs \
     build-essential \
+    nodejs \
   # remove useless files from the current layer
   && rm -rf /var/lib/apt/lists/* \
   && apt-get autoremove \
