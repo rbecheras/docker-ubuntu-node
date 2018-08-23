@@ -6,7 +6,7 @@ FROM ubuntu:18.04
 # Install Node.js
 RUN apt-get update \
   && apt-get install -y curl \
-  && curl --silent --location https://deb.nodesource.com/setup_4.x | bash - \
+  && curl --silent --location https://deb.nodesource.com/setup_8.x | bash - \
   && apt-get install -y \
     nodejs \
     build-essential \
