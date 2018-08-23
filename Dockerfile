@@ -11,6 +11,7 @@ LABEL Author="Rémi Becheras <remi.becheras@gmail.com>"
 
 # Install Node.js, Yarn and required dependencies
 RUN apt-get update \
+  && apt-get remove --purge cmdtest \
   && apt-get install -y \
     curl \
     gnupg \
