@@ -30,6 +30,8 @@ See:
     * The second parts, `8` and `carbon`, gives the major version of `NodeJS LTS` installed in the image
 
 
+- Any the git tag `2.0.0` will be created and pushed when the next LTS of Ubuntu or Node.js will be released. And this line will be updated.
+
 ## License
 
 [MIT License](LICENSE)
