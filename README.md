@@ -25,9 +25,10 @@ See:
 ## Git Tags and Docker Tags
 
 - Any change on the branch `master` triggers a rebuild on docker hub and updates the docker tag `latest`
-- Any new pushed `1.x` git tag triggers a rebuild on docker hub and updates the docker tag `18.04-8`.
-    * The first part, `18.04`, gives the major version of `Ubuntu LTS` used as the base image
-    * The second part, `8`, gives the major version of `NodeJS LTS` installed in the image
+- Any new pushed `1.x` git tag triggers a rebuild on docker hub and updates the docker tag as `18.04-8` and `carbon`:
+    * The first parts, `18.04` and `bionic`, gives the major version of `Ubuntu LTS` used as the base image
+    * The second parts, `8` and `carbon`, gives the major version of `NodeJS LTS` installed in the image
+
 
 ## License
 
